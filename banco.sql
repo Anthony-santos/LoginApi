@@ -11,7 +11,7 @@ CREATE TABLE Usuario
   CONSTRAINT pk_UsuarioId PRIMARY KEY (UserId)
 );
 
-INSERT INTO Usuario (UserName, UserEmail, UserPassword) VALUES ('Anthony Santos', 'anthonygabriel642@gmail.com', 'agas124578');
+INSERT INTO Usuario (UserName, UserEmail, UserPassword) VALUES ('Anthony Santos', 'anthonygabriel@gmail.com', 'algoestranho');
 INSERT INTO Usuario (UserName, UserEmail, UserPassword) VALUES ('Isadora Freitas', 'isadorafreitas@gmail.com', 'algoestranho');
 
 SELECT * FROM Usuario;
